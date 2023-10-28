@@ -91,7 +91,7 @@ logo =                                          """
 \033[1;37m Owner   :            Jake wu
 \033[1;37m Facebook:            Jake Wu
 \033[1;37m Github  :            Jakes
-\033[1;37m Version :            9.8
+\033[1;37m Version :            1.0
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -112,16 +112,6 @@ def sarfraz():
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
-    print(f'[2] Public ID Crack')
-    print(f'[3] Random Crack ')
-    print(f'[4] Create File')
-    print(f'[5] Login Tool')
-    print(f'[6] Logout Cookie')
-    print(f'[7] Remove Trash Files ')
-    print(f'[8] Separate Ids')
-    print(f'[9] Remove Duplicate IDs')
-    print(f'[W] Join Whatsapp Group ')
-    print(f'[F] Join Facebook Group ')
     print('')
     select = input('Select Menu>: ')
     if select =='1':
